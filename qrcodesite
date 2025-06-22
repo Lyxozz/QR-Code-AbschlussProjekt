@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Danke fürs Vorbeischauen!</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: white;
+      color: black;
+      padding: 2em;
+      max-width: 700px;
+      margin: auto;
+    }
+    iframe {
+      width: 100%;
+      height: 166px;
+      border: none;
+      margin-top: 1em;
+    }
+    a {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Danke fürs Vorbeischauen!</h1>
+  <p>
+    Mein Abschlussprojekt ist eine Visual Novel, an der ich in den letzten Monaten gearbeitet habe.  
+    Ich hoffe, es hat euch gefallen oder zumindest neugierig gemacht.
+  </p>
+
+  <p>
+    🎵 <strong>Musik zum Spiel:</strong><br>
+    Ich habe einen Song für das Spiel komponiert – ihr könnt ihn euch hier anhören:
+  </p>
+
+  <iframe scrolling="no" frameborder="no" allow="autoplay"
+    src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/mykyta-kucher-706550956/idk&color=%23000000&inverse=false&auto_play=false&show_user=true">
+  </iframe>
+
+  <p>
+    🎸 <strong>Ich spiele Bass in der Schulband!</strong><br>
+    Wir treten am <strong>Donnerstag</strong> um <strong>17:00 Uhr</strong> und <strong>18:00 Uhr</strong> auf,  
+    sowie am <strong>Freitag</strong> um <strong>17:00 Uhr</strong> und <strong>19:00 Uhr</strong>.  
+    Kommt gerne vorbei!
+  </p>
+</body>
+</html>
