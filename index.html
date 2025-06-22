@@ -6,11 +6,12 @@
   <style>
     body {
       font-family: sans-serif;
-      background: white;
-      color: black;
+      background: black;
+      color: white;
       padding: 2em;
       max-width: 700px;
       margin: auto;
+      position: relative;
     }
     iframe {
       width: 100%;
@@ -19,12 +20,22 @@
       margin-top: 1em;
     }
     a {
-      color: blue;
+      color: #00aaff;
     }
     .kontakt {
       margin-top: 2em;
       font-size: 0.95em;
-      color: #333;
+      color: #ccc;
+    }
+    .sticker {
+      position: fixed;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 150px;
+      height: auto;
+      z-index: 1000;
+      pointer-events: none;
     }
   </style>
 </head>
@@ -56,5 +67,7 @@
     Telegram: <a href="https://t.me/Lyxozz">@Lyxozz</a><br>
     Telefon: <a href="tel:+41765348368">+41 76 534 8368</a>
   </div>
+
+  <img class="sticker" src="tmpanj1vq6nsticker.gif" alt="Sticker">
 </body>
 </html>
