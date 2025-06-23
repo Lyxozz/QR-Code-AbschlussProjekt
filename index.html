@@ -68,10 +68,24 @@
     Telefon: <a href="tel:+41765348368">+41 76 534 8368</a>
   </div>
 
-  <!-- Видеостикер -->
-  <video class="sticker" autoplay loop muted playsinline>
-    <source src="sticker.mp4" type="video/mp4">
-    Dein Browser unterstützt das Video nicht.
-  </video>
+  
+  
+  
+<style>
+  .sticker {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    z-index: 1000;
+  }
+</style>
+
+<video class="sticker" autoplay loop muted playsinline>
+  <source src="sticker.mp4" type="video/mp4">
+  Dein Browser unterstützt das Video nicht.
+</video>
+
 </body>
 </html>
